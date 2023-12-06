@@ -4,4 +4,6 @@ project(menu)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(menu
-        main.cpp)
+        main.cpp
+        menu_functions.cpp
+        menu.hpp)
